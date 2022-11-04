@@ -1,0 +1,42 @@
+.bodyContainer{
+    margin: auto;
+    position: relative;
+    height: 50vw;
+    width: 50vw;
+    background: url(Analog-Clock-Face.jpg);background-repeat: no-repeat;
+    background-size:contain;
+    border: red solid 2px;
+}
+
+.hour{
+    position: absolute;
+    margin-top: 15.5vw;
+    margin-left: 24.25vw;
+    height: 9.5vw;
+    width:1vw;
+    background-color: black;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+.minHand{
+    position: absolute;
+    margin-top: 11.5vw;
+    margin-left: 24.35vw;
+    height: 13vw;
+    width:0.75vw;
+    background-color: black;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
+
+.secHand{
+    position: absolute;
+    margin-top: 9vw;
+    margin-left: 24.5vw;
+    height: 15vw;
+    width:0.5vw;
+    background-color: black;
+    opacity: 0.8;
+    transform-origin: bottom;
+}
